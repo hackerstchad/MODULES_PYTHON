@@ -45,7 +45,8 @@ numexpr, gmpy2, pint, uncertainties, statsmodels,
 scikit-learn, pywavelets, networkx, igraph, cvxpy,
 cvxopt, pulp, ortools, gekko, casadi, symengine,
 jax, jaxlib, torch, tensorflow, keras
-3. Data science et analyse de données
+
+# 3. Data science et analyse de données
 
 python
 pandas, polars, dask, vaex, modin, cudf, pyarrow,
