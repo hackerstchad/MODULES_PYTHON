@@ -35,7 +35,9 @@ token, tokenize, tomllib, trace, traceback, tracemalloc, tty,
 turtle, types, typing, unicodedata, unittest, urllib, uuid,
 venv, warnings, wave, weakref, webbrowser, xml, xmlrpc, zipapp,
 zipfile, zipimport, zlib
-2. Mathématiques et calcul scientifique
+
+
+# 2. Mathématiques et calcul scientifique
 
 python
 numpy, scipy, sympy, mpmath, numba, cython, bottleneck,
@@ -51,7 +53,8 @@ fastparquet, tables, h5py, xarray, openpyxl, xlrd,
 xlsxwriter, pyxlsb, duckdb, ibis, petl, janitor,
 great_expectations, pandera, pydantic, frictionless,
 datacompy, datatable, pyspark, fugue, ray, apache_beam
-4. Intelligence artificielle et Machine Learning
+
+#4. Intelligence artificielle et Machine Learning
 
 python
 scikit-learn, tensorflow, torch, torchvision, torchaudio,
@@ -64,7 +67,8 @@ autogluon, h2o, flaml, optuna, hyperopt, ray[tune],
 mlflow, wandb, neptune, clearml, dvc, feast,
 shap, lime, eli5, captum, interpret, imbalanced_learn,
 river, sktime, tslearn, darts, gluonts, neuralforecast
-5. IA générative et modèles de langage
+
+#5. IA générative et modèles de langage
 
 python
 openai, anthropic, google_genai, groq, cohere,
@@ -85,7 +89,8 @@ ftfy, unidecode, rapidfuzz, fuzzywuzzy, jellyfish,
 flashtext, yake, keybert, sumy, rouge_score,
 sacrebleu, bert_score, langdetect, lingua,
 fasttext, indic_nlp_library, pythainlp
-7. Développement Web et API
+
+#7. Développement Web et API
 
 python
 django, flask, fastapi, starlette, sanic, quart,
@@ -98,7 +103,8 @@ fastapi_users, strawberry, ariadne, graphene,
 strawberry_graphql, graphql, websockets, socketio,
 python_socketio, uvicorn, gunicorn, waitress, hypercorn,
 granian, werkzeug, jinja2, mako, chameleon
-8. Requêtes HTTP et scraping Web
+
+#8. Requêtes HTTP et scraping Web
 
 python
 requests, httpx, urllib3, aiohttp, treq, curl_cffi,
@@ -107,7 +113,8 @@ lxml, html5lib, pyquery, mechanicalsoup, robobrowser,
 requests_html, cloudscraper, trafilatura, newspaper3k,
 readability, goose3, feedparser, extruct, w3lib,
 selenium, playwright, pyppeteer, splinter, undetected_chromedriver
-9. Bases de données SQL et NoSQL
+
+#9. Bases de données SQL et NoSQL
 
 python
 sqlalchemy, alembic, sqlmodel, peewee, pony, tortoise,
@@ -130,7 +137,8 @@ pefile, lief, capstone, keystone_engine, unicorn,
 angr, frida, r2pipe, oletools, pyshark, dpkt,
 construct, asn1crypto, pyasn1, jwcrypto, authlib,
 python_jose, pyotp, qrcode, segno
-11. Réseaux, protocoles et serveurs
+
+#11. Réseaux, protocoles et serveurs
 
 python
 socket, paramiko, asyncssh, netmiko, napalm, scrapli,
@@ -141,7 +149,8 @@ trio, anyio, trio_websocket, websockets, h11, h2,
 hpack, hyper, urllib3, requests, httpx, grpcio,
 protobuf, zerorpc, rpyc, zeromq, pyzmq, pika,
 kombu, aio_pika, confluent_kafka, kafka_python
-12. Automatisation et contrôle du système
+
+#12. Automatisation et contrôle du système
 
 python
 pyautogui, pynput, keyboard, mouse, pyperclip,
@@ -152,7 +161,8 @@ python_terraform, pulumi, boto3, subprocess,
 pexpect, sh, plumbum, fire, typer, click,
 docopt, argparse, rich, loguru, structlog,
 colorama, colored, tqdm, alive_progress
-13. Interfaces graphiques et applications de bureau
+
+#13. Interfaces graphiques et applications de bureau
 
 python
 tkinter, customtkinter, PyQt6, PyQt5, PySide6, PySide2,
@@ -160,7 +170,8 @@ wxPython, Kivy, KivyMD, DearPyGui, PySimpleGUI,
 Flet, toga, eel, pywebview, pygubu, guizero,
 PyGObject, GTK, arcade, pyglet, turtle, pyside6_addons,
 qfluentwidgets, textual, urwid, prompt_toolkit, curses
-14. Jeux vidéo et graphismes 3D
+
+#14. Jeux vidéo et graphismes 3D
 
 python
 pygame, pygame_ce, arcade, pyglet, panda3d, ursina,
@@ -168,7 +179,8 @@ moderngl, PyOpenGL, vispy, trimesh, open3d, vedo,
 vtk, pyvista, blender, bpy, mujoco, pybullet,
 gymnasium, stable_baselines3, pettingzoo, pymunk,
 Box2D, pymorphy3, noise, pygfx, pyrender
-15. Images, vision par ordinateur et OCR
+
+#15. Images, vision par ordinateur et OCR
 
 python
 Pillow, pillow_heif, opencv_python, opencv_contrib_python,
@@ -178,7 +190,8 @@ easyocr, pytesseract, paddleocr, keras_ocr, doctr,
 mmocr, detectron2, mmdetection, ultralytics, mediapipe,
 face_recognition, insightface, rembg, onnxruntime,
 segment_anything, transformers, timm
-16. Audio, musique et vidéo
+
+#16. Audio, musique et vidéo
 
 python
 librosa, soundfile, sounddevice, pyaudio, pydub,
@@ -189,7 +202,8 @@ whisperx, torchaudio, moviepy, imageio_ffmpeg,
 ffmpeg_python, av, opencv_python, scenedetect,
 decord, PyAV, manim, gTTS, edge_tts, TTS,
 coqui_tts, pyttsx3, audiomentations
-17. PDF, Word, Excel et documents
+
+#17. PDF, Word, Excel et documents
 
 python
 pypdf, PyPDF2, pdfplumber, pymupdf, fitz,
@@ -199,7 +213,8 @@ openpyxl, xlsxwriter, xlrd, xlwt, pyxlsb,
 python_pptx, pptxgenjs, odfpy, mammoth,
 pypandoc, pandocfilters, tabula_py, camelot_py,
 ocrmypdf, tika, textract, unstructured, markitdown
-18. Tests, débogage et qualité du code
+
+#18. Tests, débogage et qualité du code
 
 python
 pytest, pytest_asyncio, pytest_cov, pytest_mock,
@@ -222,7 +237,8 @@ ib_async, alpaca_trade_api, alpaca_py, polygon,
 alpha_vantage, ta, pandas_ta, finta, tulipy,
 TA_Lib, mplfinance, backtesting, arch, py_vollib,
 rateslib, openbb, akshare, investpy, forex_python
-20. Géographie, cartes et données géospatiales
+
+#20. Géographie, cartes et données géospatiales
 
 python
 geopandas, shapely, fiona, rasterio, rioxarray,
@@ -239,7 +255,8 @@ solana, solders, anchorpy, substrateinterface,
 cosmpy, algosdk, xrpl, stellar_sdk, ton,
 pytezos, brownie, ape, vyper, eth_brownie,
 eth_tester, py_ecc, trie, rlp, hexbytes
-22. Cloud, DevOps et infrastructure
+
+322. Cloud, DevOps et infrastructure
 
 python
 boto3, botocore, s3fs, aiobotocore, gcsfs,
@@ -250,7 +267,8 @@ oci, pulumi, terraform, docker, kubernetes,
 openshift, ansible, salt, fabric, invoke,
 prefect, dagster, apache_airflow, luigi, kedro,
 metaflow, flyte, mlflow, dvc, feast, great_expectations
-23. Big Data et traitement distribué
+
+#23. Big Data et traitement distribué
 
 python
 pyspark, pyarrow, dask, ray, modin, polars,
@@ -259,7 +277,8 @@ delta_spark, delta, hudi, pyiceberg, duckdb,
 streamlit, kafka_python, confluent_kafka, faust,
 bytewax, quixstreams, redpanda, trino, prestodb,
 pymilvus, weaviate_client, qdrant_client
-24. Mathématiques avancées et recherche scientifique
+
+#24. Mathématiques avancées et recherche scientifique
 
 python
 sympy, scipy, numpy, mpmath, sage, sageall,
@@ -269,7 +288,8 @@ symengine, cvxpy, cvxopt, pymc, arviz,
 numpyro, pyro, stan, cmdstanpy, emcee,
 bilby, astropy, sunpy, poliastro, skyfield,
 biopython, rdkit, openmm, pymatgen, ase
-25. Biologie, médecine et bio-informatique
+
+#25. Biologie, médecine et bio-informatique
 
 python
 biopython, biotite, pysam, cyvcf2, scanpy,
@@ -279,7 +299,8 @@ rdkit, deepchem, mordred, openmm, mdtraj,
 pdbfixer, pybel, pubchempy, chembl_webresource_client,
 lifelines, scikit_survival, nibabel, nilearn,
 SimpleITK, pydicom, monai, dicom2nifti
-26. Web sémantique, graphes et recherche
+
+#26. Web sémantique, graphes et recherche
 
 python
 rdflib, owlready2, pyshacl, SPARQLWrapper, networkx,
@@ -287,7 +308,8 @@ igraph, graph_tool, neo4j, py2neo, gremlin_python,
 elasticsearch, opensearch_py, whoosh, tantivy,
 rank_bm25, faiss_cpu, chromadb, qdrant_client,
 weaviate_client, pinecone, pymilvus, txtai, tantivy
-27. Formats de données et sérialisation
+
+#27. Formats de données et sérialisation
 
 python
 json, orjson, ujson, msgpack, cbor2, bson,
@@ -296,7 +318,8 @@ thrift, pycapnp, pydantic, marshmallow, attrs,
 cattrs, dacite, mashumaro, msgspec, ruamel_yaml,
 PyYAML, toml, tomli, tomli_w, tomllib, hjson,
 xmltodict, defusedxml, lxml, jsonschema, referencing
-28. E-mails, notifications et communication
+
+#28. E-mails, notifications et communication
 
 python
 smtplib, imaplib, poplib, email, aiosmtplib,
@@ -305,7 +328,8 @@ google_api_python_client, twilio, sendgrid, mailgun,
 postmarker, boto3, apprise, ntfy, python_telegram_bot,
 aiogram, telethon, discord_py, nextcord, disnake,
 slack_sdk, mattermostdriver, matrix_nio, zulip
-29. WebSocket, tâches asynchrones et concurrence
+
+#29. WebSocket, tâches asynchrones et concurrence
 
 python
 asyncio, trio, anyio, curio, uvloop, aiohttp,
@@ -314,7 +338,8 @@ celery, dramatiq, huey, rq, arq, taskiq,
 apscheduler, schedule, pebble, loky, joblib,
 multiprocessing, threading, concurrent_futures,
 janus, aiomultiprocess, dask, ray
-30. Utilitaires et outils Python
+
+#30. Utilitaires et outils Python
 
 python
 requests, rich, typer, click, fire, tqdm,
@@ -327,7 +352,8 @@ cookiecutter, copier, watchdog, humanize, boltons,
 more_itertools, toolz, funcy, cachetools, diskcache,
 joblib, tenacity, retrying, backoff, wrapt,
 decorator, dependency_injector, pluggy, stevedore
-31. Modules supplémentaires pour l'éducation et la programmation
+
+#31. Modules supplémentaires pour l'éducation et la programmation
 
 python
 IPython, ipykernel, jupyter, jupyterlab, notebook,
