@@ -54,7 +54,7 @@ xlsxwriter, pyxlsb, duckdb, ibis, petl, janitor,
 great_expectations, pandera, pydantic, frictionless,
 datacompy, datatable, pyspark, fugue, ray, apache_beam
 
-#4. Intelligence artificielle et Machine Learning
+#4 Intelligence artificielle et Machine Learning
 
 python
 scikit-learn, tensorflow, torch, torchvision, torchaudio,
